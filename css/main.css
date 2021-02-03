@@ -84,13 +84,66 @@ textarea {
   resize: vertical;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+img{
+  width: 100%;
+
+}
+
+h1{
+  color: #000;
+}
 
 /* ==========================================================================
-   Helper classes
+   LAYOUT
    ========================================================================== */
+
+div, section, footer, header{
+    border: 1px solid #ccc;
+}
+
+.column{
+  background-color: rgb(243, 222, 194);
+  margin: 1rem;
+}
+
+.heading{
+  text-align:center;
+}
+
+/* small only */
+@media screen and (max-width: 39.9375em) {}
+
+/* medium and up */
+@media screen and (min-width: 40em) {}
+
+/* medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .row{
+    width: 85vw;
+    max-width: 70rem;
+    margin: 0 auto;
+  }
+  
+}
+
+/* large and up */
+@media screen and (min-width: 64 em) {}
+
+/* large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375) {}
+
+
+/* ==========================================================================
+   MODULES
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   THEME
+   ========================================================================== */
+
+
 
 /*
  * Hide visually and from screen readers
